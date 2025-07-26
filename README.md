@@ -13,7 +13,7 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 
 > Kesin İndirilmesi Gerekenler
 
-`kitty` `dolphin` `hyprpaper`
+`kitty` `dolphin` `hyprpaper` `nerd-fonts`
 
 > Opsiyonel(İsterseniz İndirebilirsiniz)
 
