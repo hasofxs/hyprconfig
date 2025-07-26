@@ -12,19 +12,31 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 # Neleri İndirmelisinz?
 
 > Kesin İndirilmesi Gerekenler
+
 `kitty` `dolphin` `hyprpaper`
+
 > Opsiyonel(İsterseniz İndirebilirsiniz)
+
 `google-chrome` `wofi`
 
 # Kısayollar!
+
 `SUPER+M` Oturumu Kapat
+
 `SUPER+D` Dolphin
+
 `SUPER+1-2-3` Masaüstü Değiştirme
+
 `SUPER+G` Google Chrome
+
 `SUPER+F` Firefox
+
 `SUPER+R` Wofi
+
 `SUPER+Mouse1` Pencere Konumlandırma
+
 `SUPER+Mouse3` Pencere Boyutlandırma
+
 `SUPER+V` Pencere Boyutuna Küçültme/Büyütme
 
 # İndirme Süreci
