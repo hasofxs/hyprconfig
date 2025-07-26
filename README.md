@@ -1,4 +1,4 @@
-# hyprconfig
+# hyprconf
 Waybar ve Hyprland config dosyalarım sizinle :D
 
 > Masaüstünden Görüntüler
