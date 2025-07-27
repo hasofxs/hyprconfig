@@ -40,3 +40,23 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 `SUPER+V` Pencere Boyutuna Küçültme/Büyütme
 
 # İndirme Süreci
+- 1-İndirmediyseniz Bağlılıkları İndirin
+
+Arch Linux `sudo pacman -S git`
+
+Debian `sudo apt install git`
+
+Fedora `sudo dnf install git`
+
+- 2-Dosyaları Sisteme Kopyalayın
+
+  `git clone https://github.com/hasofxs/hyprconf.git`
+
+- 3-`hyprconf` dosyasının içindeki `.zip` dosyasını çıkartın.
+
+- 4-`hypr` ve `waybar` klasörlerini `.config` dosyasına sürükleyin.
+
+- 5-Sisteminizi Yeniden Başlatın
+`reboot`
+
+# Son- Yapmanız Gerekenler bu Kadardı!
