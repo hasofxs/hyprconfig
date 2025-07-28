@@ -39,6 +39,8 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 
 `SUPER+V` Pencere Boyutuna Küçültme/Büyütme
 
+`SUPER+T` Kitty-Terminal
+
 # İndirme Süreci
 - 1-İndirmediyseniz Bağlılıkları İndirin
 
