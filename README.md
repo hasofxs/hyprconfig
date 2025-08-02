@@ -13,19 +13,19 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 
 > Kesin İndirilmesi Gerekenler
 
-`kitty` `dolphin` `hyprpaper` `nerd-fonts`
+`kitty` `dolphin` `hyprpaper` `nerd-fonts` `wofi` `firefox` `hyprpaper`
 
 > Opsiyonel(İsterseniz İndirebilirsiniz)
 
-`google-chrome` `wofi`
+`google-chrome`
 
 # Kısayollar!
 
-`SUPER+M` Oturumu Kapat
+`SUPER+M` Oturumu(Hyprland) Kapat
 
 `SUPER+D` Dolphin
 
-`SUPER+1-2-3` Masaüstü Değiştirme
+`SUPER+1-2-3` Sanal Masaüstü Değiştirme
 
 `SUPER+G` Google Chrome
 
@@ -33,23 +33,33 @@ Waybar ve Hyprland config dosyalarım sizinle :D
 
 `SUPER+R` Wofi
 
-`SUPER+Mouse1` Pencere Konumlandırma
+`SUPER+Sol Tık` Pencere Konumlandırma  \
+>                                       ---> Bu iki  kısayol için pencere yüzen modda olmalı.
+`SUPER+Sağ Tık` Pencere Boyutlandırma  /
 
-`SUPER+Mouse3` Pencere Boyutlandırma
-
-`SUPER+V` Pencere Boyutuna Küçültme/Büyütme
+`SUPER+V` Seçili Pencereyi Yüzme Moduna Alma
 
 `SUPER+T` Kitty-Terminal
 
 # İndirme Süreci
 - 1-İndirmediyseniz Bağlılıkları İndirin
 
-Arch Linux `sudo pacman -S git`
-
-Debian `sudo apt install git`
-
-Fedora `sudo dnf install git`
-
+Arch Linux:
+```bash
+yay -S git kitty hyprpaper wofi nerd-fonts dolphin firefox hyprpaper`
+```
+Debian:
+```bash
+sudo apt update && sudo apt install -y git kitty dolphin firefox wofi fonts-noto-color-emoji
+```
+Fedora:
+```bash
+sudo dnf install -y git kitty dolphin firefox wofi fira-code-fonts
+sudo dnf copr enable solopasha/hyprland
+sudo dnf install hyprland hyprpaper
+sudo dnf copr enable dawid/better_fonts
+sudo dnf install nerd-fonts
+```
 - 2-Dosyaları Sisteme Kopyalayın
 
   `git clone https://github.com/hasofxs/hyprconf.git`
@@ -58,7 +68,10 @@ Fedora `sudo dnf install git`
 
 - 4-`hypr` ve `waybar` klasörlerini `.config` dosyasına sürükleyin.
 
-- 5-Sisteminizi Yeniden Başlatın
-`reboot`
+- 5-Hyprland'i, waybar'ı ve hyprpaper'ı kapatıp açın.
+```bash
+killall hyprland || killall waybar || killall hyprpaper
+```
+> Veya direk `reboot` ile yeniden başlatın.
 
 # Son- Yapmanız Gerekenler bu Kadardı!
