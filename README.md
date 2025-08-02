@@ -54,7 +54,11 @@ sudo apt update && sudo apt install -y git kitty dolphin firefox wofi fonts-noto
 ```
 Fedora:
 ```bash
-sudo dnf install git`
+sudo dnf install -y git kitty dolphin firefox wofi fira-code-fonts
+sudo dnf copr enable solopasha/hyprland
+sudo dnf install hyprland hyprpaper
+sudo dnf copr enable dawid/better_fonts
+sudo dnf install nerd-fonts
 ```
 - 2-Dosyaları Sisteme Kopyalayın
 
